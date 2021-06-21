@@ -20,7 +20,7 @@
 
 * [`apt::conf`](#aptconf): Specifies a custom Apt configuration file.
 * [`apt::key`](#aptkey): Manages the GPG keys that Apt uses to authenticate packages.
-* [`apt::mark`](#aptmark): defined typeapt::mark
+* [`apt::mark`](#aptmark): Manages apt-mark settings
 * [`apt::pin`](#aptpin): Manages Apt pins. Does not trigger an apt-get update run.
 * [`apt::ppa`](#aptppa): Manages PPA repositories using `add-apt-repository`. Not supported on Debian.
 * [`apt::setting`](#aptsetting): Manages Apt configuration files.
@@ -620,7 +620,7 @@ Default value: `$::apt::key_options`
 
 ### <a name="aptmark"></a>`apt::mark`
 
-defined typeapt::mark
+Manages apt-mark settings
 
 #### Parameters
 
@@ -634,7 +634,7 @@ Data type: `Enum['auto','manual','hold','unhold']`
 
 auto, manual, hold, unhold
 specifies the behavior of apt in case of no more dependencies installed
-https://manpages.debian.org/sretch/apt/apt-mark.8.en.html
+https://manpages.debian.org/stable/apt/apt-mark.8.en.html
 
 ### <a name="aptpin"></a>`apt::pin`
 

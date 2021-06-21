@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [v8.0.3](https://github.com/puppetlabs/puppetlabs-apt/tree/v8.0.3) (2021-06-21)
+
+[Full Changelog](https://github.com/puppetlabs/puppetlabs-apt/compare/v8.0.2...v8.0.3)
+
+### Fixed
+
+- \(IAC-1597\) Increasing MAX\_RETRY\_COUNT [\#987](https://github.com/puppetlabs/puppetlabs-apt/pull/987) ([pmcmaw](https://github.com/pmcmaw))
+
 ## [v8.0.2](https://github.com/puppetlabs/puppetlabs-apt/tree/v8.0.2) (2021-03-29)
 
 [Full Changelog](https://github.com/puppetlabs/puppetlabs-apt/compare/v8.0.1...v8.0.2)
